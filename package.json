@@ -1,0 +1,42 @@
+{
+  "name": "line-reader-stream",
+  "version": "1.0.0",
+  "description": "Read a file line by line using readable streams",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateusRoscoe/line-reader-stream.git"
+  },
+  "keywords": [
+    "line",
+    "reader",
+    "stream"
+  ],
+  "author": "Mateus Roscoe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MateusRoscoe/line-reader-stream/issues"
+  },
+  "homepage": "https://github.com/MateusRoscoe/line-reader-stream#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^20.14.1",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.12.0"
+  },
+  "dependencies": {
+    "@log4js-node/log4js-api": "^1.0.2"
+  }
+}
